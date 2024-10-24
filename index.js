@@ -1,5 +1,5 @@
-const target = Math.floor(Math.random() * 10)
-let guess = null
+const target = Math.floor(Math.random() * 10) + 1;
+let guess = null;
 
 while (guess !== target) {
     guess = parseFloat(prompt("Guess a number between 1 and 10"));
